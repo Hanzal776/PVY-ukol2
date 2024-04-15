@@ -1,6 +1,6 @@
 body{
-    background-color:beige ;
-    margin: 0;
+    background-color:rgb(255, 255, 255) ;
+    margin: 7cm;
     line-height: normal;
 }
 main{
@@ -18,9 +18,56 @@ h1{
 }
 h2{
     text-align: center;
+    color: white;
+    background-color: brown;
+    padding: 5px;
+    border-radius: 5px;
 }
+
 h3{
     text-align: left;
     text-transform: uppercase;
     color:rgb(0, 0, 155);
+}
+h5{
+    text-align: left;
+    font-weight: bold;
+}
+h4{
+    background-color: rgb(53, 53, 53);
+    font-style: italic;
+    text-align: center;
+    color: white;
+}
+table{
+    width: 1000px;
+    border-spacing: 0;
+    border-collapse: separate;
+    border: 2px solid black;
+}
+thead{
+    background-color: rgb(189, 189, 189);
+}
+tfoot{
+    background-color: rgb(197, 197, 197);
+}
+td{
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: left;
+}
+th{
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+.odstavec{
+    border-width: 40px;
+}
+.cervena{
+    color: red;
+}
+p{
+    padding: 5px;
 }
